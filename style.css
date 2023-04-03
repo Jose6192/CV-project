@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.image-profile{
+    max-width: 10rem;
+    max-height: 10rem;
+}
+aside{
+    background-color: antiquewhite;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(106, 106, 170);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(106, 106, 170);
+    height: 100vh;
+
+}
