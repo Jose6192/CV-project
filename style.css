@@ -8,6 +8,7 @@ body{
 }
 .image-profile{
     width: 50%;
+    border-radius: 20%;
 }
 nav{
     background-color: #A49276;
@@ -19,12 +20,20 @@ nav{
     align-items: center;
     position: fixed;
 }
+a{
+    text-decoration: none;
+    color: #F6F5F5;
+}
 .skills{
     color: #F6F5F5;
     display: flex;
     height: 50%;
     flex-direction: column;
     justify-content: space-evenly;
+    list-style: none;
+}
+a:hover{
+    color: #4d626f;
 }
 main{
     display: flex;
@@ -38,9 +47,30 @@ section{
     flex-direction: column;
 }
 section>*{
-    margin: 2rem;
+    margin: 1.5rem;
+}
+.logo{
+    max-height: 2rem;
+    margin-top: 2rem;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 h1{
+    color: #f05254;
     font-size: 6rem;
-    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 1.15rem;
+    color: #f05254;
+}
+h3{
+    font-size: 1.15rem;
+}
+p{
+    font-size: 1.15rem;
+}
+li{
+    font-size: 1.15rem;
 }
